@@ -4,7 +4,7 @@ A dll that dumps all console-variables with their description from a UnrealEngin
 
 You need to change the offset to [this](https://github.com/EpicGames/UnrealEngine/blob/4.21/Engine/Source/Runtime/Core/Public/HAL/IConsoleManager.h#L714) variable in line 22 of Source.cpp to the offset for your game.
 
-Formate:
+Format:
 ```
 r.DumpingMovie
 "Allows to dump each rendered frame to disk (slow fps, names MovieFrame..).
